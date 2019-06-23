@@ -1,6 +1,9 @@
 Django rest framework Download Expert
 =====================================
 
+.. image:: https://badge.fury.io/py/django-rest-framework-download-expert.svg
+    :target: https://badge.fury.io/py/django-rest-framework-download-expert
+
 This module provides a simple way to serve files for download in django rest framework using Apache module Xsendfile.
 
 It also has an additional feature of serving downloads only to users belonging to a particular group. This feature might 
