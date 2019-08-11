@@ -10,6 +10,8 @@ belonging to 'Free' group.
 
 Prerequisite: A server installed with an O.S(preferably a linux environment)
 
+TL;DR
+-----
 Installation
 ------------
 
@@ -168,4 +170,4 @@ Attach an authorization header: Key: Authorization, Value: Bearer <token-value>
 
 Here's how I did this in postman:
 
-![](postman.gif)
+.. image:: postman.gif
