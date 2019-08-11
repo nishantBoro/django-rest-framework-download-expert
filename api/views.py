@@ -5,7 +5,7 @@ from . import xsendfile
 
 
 class PremiumUser(APIView):
-    permission_classes = (IsAuthenticated, permissions.IsGroupUser,)
+    permission_classes = (IsAuthenticated, permissions.IsGroupUser)
     group_name = 'Premium'
 
     def get(self, request):
